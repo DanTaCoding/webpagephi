@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+  .box{
+    padding: 0px;
+    background-image: url('grass.jpg');
+  }
+  .imagen1{
+    height: 200px;
+    width: 200px;
+    
+  }
+  .colum1{
+    float: left;
+    width: 20%;
+    margin-top: 10px; 
+
+  }
+  .colum2{
+    float: left;
+    width: 50%;
+    margin-top: 10px; 
+  
+  }
+  .colum3{
+    float: right;
+    width: 30%;
+    margin-top: 10px; 
+   
+  }
+  .row{
+    margin-top: 5px;
+    display: flex;
+    float: left;
+  }
+  .row img{
+	width: 75px;
+	height: 75px;
+  border-style: groove;
+  border-color: silver;
+  border-radius: 10px;
+    }
+  input{
+    margin-bottom: 20px;
+  }
